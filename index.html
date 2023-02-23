@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum HTML</title>
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="print-area">
+        <div class="header">
+            <img src="https://www.random-name-generator.com/images/faces/male-latino/08.jpg?ezimgfmt=rs:148x148/rscb1/ng:webp/ngcb1">
+            <div class="header-text">
+                <h1>Maximo Soto</h1>
+                <p>Diseñador Grafico/Web</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="left-area">
+                <div class="contact">
+                    <h4>CONTACTO</h4>
+                    <h5>Telefono</h5>
+                    <p>(33)4993-8573</p>
+                    <h5>Email</h5>
+                    <p>Soto.M@yahoos.com</p>
+                    <h5>Direccion</h5>
+                    <p>San Martin 21503, Barrio del Norte, AR 9028</p>
+                </div>
+                <div class="Habilidades">
+                    <h1>Habilidades</h1>
+                    <div class="bars">
+                        <div class="bar">
+                            <p>Photoshop</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>HTML/CSS</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>JavaScript</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>PHP</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>SQL</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>C++</p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="Redes">
+                    <h1>Redes</h1>
+                    <h4>Facebook</h4>
+                    <p>
+                        <a href="https://www.facebook.com">Facebook.com/MaximoSoto</a>.
+                      </p>
+                    <h4>Instagram</h4>
+                    <p>
+                        <a href="https://www.instagram.com">Instagram.com/MaximoSoto</a>
+                    </p>
+                    <h4>Twitter</h4>
+                    <p>
+                        <a href="https://www.twitter.com">Twitter.com/MaximoSoto</a>
+                    </p>
+                    <h4>Youtube</h4>
+                    <p>
+                        <a href="https://www.youtube.com">Youtube.com/MaximoSoto</a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="right-area">
+                <div class="about">
+                    <h1><span><i class="far fa-user"></i></span>Sobre Mi</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde quos aperiam perferendis totam accusamus temporibus rem.</p>
+                </div>
+                <div class="work">
+                    <h1><span><i class="fas fa-suitcase-rolling"></i></span>Experiencia Laboral</h1>
+                    <div class="work-group">
+                        <h3>Diseñador Web</h3>
+                        <h4>Ticmas Academy</h4>
+                        <span>2020/2021</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, sit. Accusantium eaque sequi vel! Ab, minima!</p>
+                    </div>
+                    <div class="work-group">
+                        <h3>Diseñador Grafico</h3>
+                        <h4>Ticmas Academy</h4>
+                        <span>2020/2021</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, sit. Accusantium eaque sequi vel! Ab, minima!</p>
+                    </div>
+                    <div class="work-group">
+                        <h3>Diseñador Grafico Industrial</h3>
+                        <h4>Grafica "Industria" </h4>
+                        <span>2022/Presente</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, sit. Accusantium eaque sequi vel! Ab, minima!</p>
+                    </div>
+            </div>
+            <div class="education">
+                <h1><span><i class="fas fa-book"></i></span>EDUCACION</h1>
+                <div class="edu-group">
+                    <h4>Universidad de Buenos Aires </h4>
+                    <span>2013/2019</span>
+                    <p>Ingenieria Informatica</p>
+                </div>
+                <div class="edu-group">
+                    <h4>Escuela Tecnica N°2</h4>
+                    <span>2005/2012</span>
+                    <p>Tecnicatura Quimica</p>
+                </div>
+                <div class="edu-group">
+                    <h4>Primaria Provincial N°23</h4>
+                    <span>1999/2004</span>
+                    <p>Colegiatura Primaria</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<button>Imprimir CV</button>
+
+<script src="all.min.js"></script>
+<script>
+    var btn = document.querySelector("button");
+    btn.onclick = () =>{
+        window.print();
+    }
+</script>
+</body>
+</html>
